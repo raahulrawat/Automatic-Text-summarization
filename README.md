@@ -1,5 +1,3 @@
-# Textsum
-
 # Automatic Text Summarization / Key Sentences Extraction
 
 TextRank Algorithm
@@ -49,10 +47,14 @@ Running code:
 
 give text input to the method summary() and this function will return the summarization of the given input text.
 
-example:
-from textsum import Summarize
+example python usage:
 
-#loading Summarize model
+
+
+
+
+
+from textsum import Summarize
 summarize = Summarize()
 
 input_text = "Advances in the classification of individual cooking ingredients are sparse. The problem is that there are almost no public edited records available. This work deals with the problem of automated recognition of a photographed cooking dish and the subsequent output of the appropriate recipe. The distinction between the difficulty of the chosen problem and previous supervised classification problems is that there are large overlaps in food dishes (aka high intra-class similarity), as dishes of different categories may look very similar only in terms of image information."
@@ -62,5 +64,3 @@ summary = summarize.summary(text = input_text)
 print(summary)
 
 Advances in the classification of individual cooking ingredients are sparse. The problem is that there are almost no public edited records available. This work deals with the problem of automated recognition of a photographed cooking dish and the subsequent output of the appropriate recipe. The distinction between the difficulty of the chosen problem and previous supervised classification problems is that there are large overlaps in food dishes (aka high intra-class similarity), as dishes of different categories may look very similar only in terms of image information.
-
-
