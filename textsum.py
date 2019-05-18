@@ -1,5 +1,3 @@
-# style transfer from template images to new images uploaded to the systems.
-
 import numpy as np
 import pandas as pd
 import nltk
